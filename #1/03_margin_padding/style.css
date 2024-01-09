@@ -1,0 +1,28 @@
+.box {
+    background-color: aquamarine;
+}
+
+
+.padding-box {
+    padding: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    background-color: aquamarine;
+}
+
+.margin-box {
+    margin: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    background-color: aquamarine;
+}
+
+.padding-margin-box {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+}

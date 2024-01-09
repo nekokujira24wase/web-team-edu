@@ -1,0 +1,72 @@
+/* 文字サイズを変えてみよう */
+
+h1 {
+    font-size: 25px;
+    /* font-size: 50px; */
+}
+
+h2 {
+    font-size: 25px;
+    /* font-size: 50px; */
+}
+
+h3, h4, h5, h6, p, a, div {
+    font-size: 25px;
+    /* font-size: 50px; */
+}
+
+h2 {
+    /* font-size: 10px; */
+}
+
+/* 文字の色を変えてみる */
+
+h1 {
+    color: blueviolet;
+    /* color: chartreuse; */
+    /* color: chocolate; */
+    /* color: darkolivegreen; */
+    /* color: deeppink; */
+}
+
+h2 {
+    /* color: blueviolet; */
+    color: chartreuse;
+    /* color: chocolate; */
+    /* color: darkolivegreen; */
+    /* color: deeppink; */
+}
+
+h3 {
+    /* color: blueviolet; */
+    /* color: chartreuse; */
+    color: chocolate;
+    /* color: darkolivegreen; */
+    /* color: deeppink; */
+}
+
+h4 {
+    /* color: blueviolet; */
+    /* color: chartreuse; */
+    /* color: chocolate; */
+    color: darkolivegreen;
+    /* color: deeppink; */
+}
+
+h5 {
+    /* color: blueviolet; */
+    /* color: chartreuse; */
+    /* color: chocolate; */
+    /* color: darkolivegreen; */
+    color: deeppink;
+}
+
+/* classを指定してcssを適用 */
+.test01 {
+    background: red;
+}
+
+/* idを指定してcssを適用 */
+#test01 {
+    background :blue;
+}

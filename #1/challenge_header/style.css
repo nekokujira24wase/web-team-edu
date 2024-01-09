@@ -1,0 +1,60 @@
+/* *{}で全てのタグに共通のcssを適用できる */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* bodyタグに色をつけている */
+body {
+    background: #e6b422;
+}
+
+#header {
+    background: #00a497;
+
+    /* <div id="header">を画面の中央に配置する */
+    /* 以下の４つのプロパティを設定することで要素が画面の中心に配置できる */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* 一つ目の-50%は、<div id="header">の横の長さの50%分左にずらしている */
+    /* 二つ目の-50%は、<div id="header">の縦の長さの50%分上にずらしている */
+    transform: translate(-50%, -50%);
+
+    /* widthは要素の横の長さを指定する */
+    width: 770px;
+    /* heightは要素の縦の長さを指定する */
+    height: 70px;
+
+    /* display: flex;を付与した要素の子要素が横並びになります。 */
+    /* この場合の子要素はどれでしょう？？ */
+    display: flex;
+
+    /* justify-content: ~~~; はdisplay: flex;を使用している時だけ使用できるcssプロパティです。 */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+    /* align-items: ~~~;もdisplay: flex;を使用している時だけ使用できるcssプロパティです。 */
+    align-items: center;
+    /* align-items: end; */
+
+    border-radius: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header h1 {
+    margin-left: 18px;
+}
+
+.menu p {
+    margin: 0 18px;
+}
