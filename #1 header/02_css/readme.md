@@ -3,7 +3,7 @@ practice_02 | cssの目標
 1,htmlファイルとcssファイルを紐付ける方法を知る
 
 
-2,cssの役割を知る
+2,cssの役割を知る  
 プロパティとは？
 ・font-size: 25px;の、"font-size"をcssプロパティと呼ぶ。
 
