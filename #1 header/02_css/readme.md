@@ -9,7 +9,7 @@ practice_02 | cssの目標
         ・font-size: 25px;の、"font-size"をcssプロパティと呼ぶ。  
 
     値とは？  
-        ・font-size: 25px;の、"25%"を値と呼ぶ。  
+        ・font-size: 25px;の、"25px"を値と呼ぶ。  
 
 
 3.コメントアウトの役割、方法を知る  
