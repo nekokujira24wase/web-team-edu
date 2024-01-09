@@ -2,11 +2,13 @@ practice_02 | cssの目標
 
 1,htmlファイルとcssファイルを紐付ける方法を知る
 
+
 2,cssの役割を知る
     プロパティとは？
         ・font-size: 25px;の、"font-size"をcssプロパティと呼ぶ。
     値とは？
         ・font-size: 25px;の、"25%"を値と呼ぶ。
+
 
 3.コメントアウトの役割、方法を知る
     役割
@@ -16,6 +18,7 @@ practice_02 | cssの目標
     方法
         ・command + 「/」キーで当該行をコメントアウトできる
 
+
 4,効率的な記述方
 ・クラスの書き方
     「p.test01.test02」と入力した段階でenterを押すと
@@ -23,6 +26,7 @@ practice_02 | cssの目標
     <p class="test01 test02"> 
     ```
     クラスを付与できる
+
 
 ・IDの書き方
     「p#test01」と入力した段階でenterを押すと
