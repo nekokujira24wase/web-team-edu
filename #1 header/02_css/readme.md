@@ -27,15 +27,15 @@ practice_02 | cssの目標
 
      ・クラスの書き方  
         「p.test01.test02」と入力した段階でenterを押すと  
-        ```html   
+        
         <p class="test01 test02">   
-        ```  
+        
         クラスを付与できる  
 
 
     ・IDの書き方  
         「p#test01」と入力した段階でenterを押すと  
-        ```html  
+        
         <p id="test0">  
-        ```  
+        
         IDを付与できる  
