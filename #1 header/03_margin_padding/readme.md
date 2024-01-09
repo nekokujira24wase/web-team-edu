@@ -1,8 +1,9 @@
 practice_03 | padding/marginの目標
 
-1.paddingとmarginの使い方/役割を学ぶ
-    padding
-        ・要素の領域の指定する
+1.paddingとmarginの使い方/役割を学ぶ  
+
+    padding  
+        ・要素の領域の指定する  
 
     margin
         ・要素の外側の不可侵領域を指定する
